@@ -1112,8 +1112,8 @@ header.header {
   color: var(--brand-hover-color);
 }
 .site-title {
-  font-family: Lato, 'PingFang SC', 'Microsoft YaHei', sans-serif;
-  font-size: 1.375em;
+  font-family: Noto Serif SC, Lato, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-size: 1.45em;
   font-weight: normal;
   line-height: 1.5;
   margin: 0;
@@ -2729,7 +2729,7 @@ hr {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #78f2ff;
+  background: #50ffff;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
