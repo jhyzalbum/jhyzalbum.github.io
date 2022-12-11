@@ -2729,7 +2729,7 @@ hr {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #ff5;
+  background: #74e5c6;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
@@ -2776,10 +2776,10 @@ hr {
   border-bottom: 0px;
 }
 .gallery-item {
-  margin-bottom: -50px;
+  margin-bottom: 0px;
 }
 .gallery-item p {
-  margin: -25px auto -10px;
+  margin: 0px auto 0px;
   max-width: 50%;
   text-align: center;
   font-size: 15px;
