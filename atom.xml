@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>1588号信箱</title>
+  
+  
+  <link href="http://jhyzalbum.github.io/atom.xml" rel="self"/>
+  
+  <link href="http://jhyzalbum.github.io/"/>
+  <updated>2022-08-30T12:39:14.408Z</updated>
+  <id>http://jhyzalbum.github.io/</id>
+  
+  <author>
+    <name>丽泽八方</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>demo</title>
+    <link href="http://jhyzalbum.github.io/2022/08/17/demo/"/>
+    <id>http://jhyzalbum.github.io/2022/08/17/demo/</id>
+    <published>2022-08-17T09:03:02.000Z</published>
+    <updated>2022-08-30T12:39:14.408Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
