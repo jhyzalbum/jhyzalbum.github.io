@@ -2729,7 +2729,7 @@ hr {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #74cc0e;
+  background: #67ff5b;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
@@ -2755,58 +2755,6 @@ hr {
 .sub-menu .menu-item {
   display: inline-block;
 }
-/* gallery-out */
-.gallery-out {
-display: grid;
-grid-template-columns: repeat(4, 1fr);
-grid-template-rows: repeat(1, 1fr);
-grid-column-gap: 20px;
-grid-row-gap: 0px;
-}
-
-	/*370*1480*/
-.gallery-out .div1 { grid-area: 1 / 1 / 2 / 2; }
-.gallery-out .div2 { grid-area: 1 / 2 / 2 / 3; }
-.gallery-out .div3 { grid-area: 1 / 3 / 2 / 4; }
-.gallery-out .div4 { grid-area: 1 / 4 / 2 / 5; }
-}
-
-.gallery-out .grid-img{
-	width: 185px;
-	height: auto;
-	opacity: 1.0;
-}
-
-.gallery-out .grid-effect:hover .grid-img{
-	opacity: 0.0;
-	transition: all 0.35s ease;
-}
-
-.gallery-out .grid-img{
-	transition: all 0.35s ease;
-}
-
-.gallery-out .grid-item{
-	background-size:100% 100%;
-}
-
-.gallery-out .grid-title{
-	display: none;
-}
-
-	/* 针对移动端： */
-@media only screen and (max-width: 768px) {
-
-.gallery-out {
-grid-column-gap: 10px;
-}
-
-.gallery-out .grid-img{
-	opacity: 0.0;
-}
-
-}
-
 /* gallery-in */
 .gallery-in {
 display: grid;
@@ -2943,6 +2891,59 @@ grid-row-gap: 5px;
 }
 
 }
+
+/* gallery-out */
+.gallery-out {
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-template-rows: repeat(1, 1fr);
+grid-column-gap: 20px;
+grid-row-gap: 0px;
+}
+
+	/*370*1480*/
+.gallery-out .div1 { grid-area: 1 / 1 / 2 / 2; }
+.gallery-out .div2 { grid-area: 1 / 2 / 2 / 3; }
+.gallery-out .div3 { grid-area: 1 / 3 / 2 / 4; }
+.gallery-out .div4 { grid-area: 1 / 4 / 2 / 5; }
+}
+
+.gallery-out .grid-img{
+	width: 185px;
+	height: auto;
+	opacity: 1.0;
+}
+
+.gallery-out .grid-effect:hover .grid-img{
+	opacity: 0.0;
+	transition: all 0.35s ease;
+}
+
+.gallery-out .grid-img{
+	transition: all 0.35s ease;
+}
+
+.gallery-out .grid-item{
+	background-size:100% 100%;
+}
+
+.gallery-out .grid-title{
+	display: none;
+}
+
+	/* 针对移动端： */
+@media only screen and (max-width: 768px) {
+
+.gallery-out {
+grid-column-gap: 10px;
+}
+
+.gallery-out .grid-img{
+	opacity: 0.0;
+}
+
+}
+
 
 /* gallery-pagination */
 .gallery-pagination .prev-page,

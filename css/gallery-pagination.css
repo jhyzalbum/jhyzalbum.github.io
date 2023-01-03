@@ -1,0 +1,29 @@
+
+/* gallery-pagination */
+.gallery-pagination .prev-page,
+.gallery-pagination .next-page,
+.gallery-pagination .current-page,
+.gallery-pagination .other-page{
+	margin: 0 10px;
+	padding: 7px 10px;
+	transition: all 0.2s ease;
+}
+
+.gallery-pagination{
+	text-align: center;
+}
+
+.gallery-pagination .current-page{
+	background-color: #ccc;
+	color: #fff;
+}
+
+	/*针对移动端： */
+@media only screen and (max-width: 768px) {
+
+.gallery-pagination .prev-page,
+.gallery-pagination .next-page,
+.gallery-pagination .current-page,
+.gallery-pagination .other-page{
+	margin: 0 5px;
+}
