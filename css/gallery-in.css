@@ -2,7 +2,7 @@
 .gallery-in {
 display: grid;
 grid-template-columns: repeat(4, 1fr);
-grid-template-rows: repeat(4, 1fr);
+grid-template-rows: auto;
 grid-column-gap: 10px;
 grid-row-gap: 10px;
 }
@@ -76,7 +76,7 @@ grid-row-gap: 10px;
 .gallery-in {
 display: grid;
 grid-template-columns: repeat(2, 1fr);
-grid-template-rows: repeat(8, 1fr);
+grid-template-rows: auto;
 grid-column-gap: 10px;
 grid-row-gap: 5px;
 }
